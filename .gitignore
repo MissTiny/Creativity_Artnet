@@ -1,3 +1,17 @@
+# Customized Ignore
+#   Token Key will be ignore for security
+Token_Key/
+#   Data will be ignore for storage concern
+Datasets/
+#   Ignore Local Models
+# Ignore all data file
+*.npy
+*.xlsx
+*.pkl
+*.csv
+*.jpg
+**/checkpoints/
+
 # Byte-compiled / optimized / DLL files
 __pycache__/
 *.py[codz]
